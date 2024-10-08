@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+    <head>
+        <title>Calculadora</title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="estilo.css">
+        <link rel="javascript" href="Funtio.js">
+    </head>
+    <body>
+        <div id="caja">
+            <form name ="Calculadora">
+                <input type = "textfield" name ="pantalla" autocomplete="off" readonly>
+<!-- ×≤←√÷--->  <br>
+                <input type = "button" value = "7" onclick="document.Calculadora.pantalla.value+='7'" class="yellow">
+                <input type = "button" value = "8" onclick="document.Calculadora.pantalla.value+='8'" class="yellow">
+                <input type = "button" value = "9" onclick="document.Calculadora.pantalla.value+='9'" class="yellow">
+                <input type = "button" value = "+" onclick="document.Calculadora.pantalla.value+='+'" class="purple">
+                <br>
+                <input type = "button" value = "4" onclick="document.Calculadora.pantalla.value+='4'" class="yellow">
+                <input type = "button" value = "5" onclick="document.Calculadora.pantalla.value+='5'" class="yellow">
+                <input type = "button" value = "6" onclick="document.Calculadora.pantalla.value+='6'" class="yellow">
+                <input type = "button" value = "-" onclick="document.Calculadora.pantalla.value+='-'" class="purple">
+                <br>
+                <input type = "button" value = "1" onclick="document.Calculadora.pantalla.value+='1'" class="yellow">
+                <input type = "button" value = "2" onclick="document.Calculadora.pantalla.value+='2'" class="yellow">
+                <input type = "button" value = "3" onclick="document.Calculadora.pantalla.value+='3'" class="yellow">
+                <input type = "button" value = "×" onclick="document.Calculadora.pantalla.value+='*'" class="purple">
+                <br>
+                <input type = "reset" value = "C" class="purple">
+                <input type = "button" value = "0" onclick="document.Calculadora.pantalla.value+='0'" class="purple">
+                <input type = "button" value="=" onclick="document.Calculadora.pantalla.value+=eval(document.
+                Calculadora.pantalla.value)" class="purple">
+                <input type = "button" value = "÷" onclick="document.Calculadora.pantalla.value+='/' "class="purple">
+            </form>
+        </div>
+    </body>
+</html>
