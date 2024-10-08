@@ -1,3 +1,3 @@
 LEYSHI BERAS PRACTICA 2
 
-![MI CAPTURA(muestra.png)]
+![MI CAPTURA](muestra.png)
